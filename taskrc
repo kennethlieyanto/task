@@ -4,7 +4,7 @@ report.next.filter=status:pending -WAITING limit:6
 
 
 news.version=3.4.2
-sync.server.url=https:\/\/taskchampion.tail.kennethlieyanto.com
+sync.server.url=https:\/\/taskchampion.home.kennethlieyanto.com
 sync.server.client_id=a329d160-5fd1-42c9-b8c1-dd661111b653
 sync.encryption_secret=thoo4Sha
 context.d.read=-work
@@ -13,4 +13,10 @@ context.work.read=+work
 context.work.write=+work
 context.homeserver.read=proj:homeserver
 context.homeserver.write=proj:homeserver
+context.actual-budget.read=proj:homeserver +actualbudget
+context.actual-budget.write=proj:homeserver +actualbudget
+context.k3s.read=proj:homeserver +k3s
+context.k3s.write=proj:homeserver +k3s
+context.actualbudget.read=proj:homeserver +actualbudget
+context.actualbudget.write=proj:homeserver +actualbudget
 context=d
