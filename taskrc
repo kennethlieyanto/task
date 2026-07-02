@@ -27,9 +27,10 @@ context.nvim.write=+nvim +config
 
 urgency.user.tag.config.coefficient = -1.0
 urgency.user.tag.backup.coefficient = 2.0
-urgency.user.tag.scholarship.coefficient = 4.0
-urgency.user.tag.jobsearch.coefficient = 3.0
+urgency.user.tag.scholarship.coefficient = 12.0
+urgency.user.tag.jobsearch.coefficient = 10.0
 urgency.user.tag.learn.coefficient = -2.0
 
 urgency.user.tag.learn.coefficient = -2.0
 urgency.due.coefficient = 55.0
+urgency.uda.priority.H.coefficient = 9.0
