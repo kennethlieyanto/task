@@ -20,3 +20,16 @@ context.k3s.write=proj:homeserver +k3s
 context.actualbudget.read=proj:homeserver +actualbudget
 context.actualbudget.write=proj:homeserver +actualbudget
 context=d
+context.config.read=+config
+context.config.write=+config
+context.nvim.read=+nvim +config
+context.nvim.write=+nvim +config
+
+urgency.user.tag.config.coefficient = -1.0
+urgency.user.tag.backup.coefficient = 2.0
+urgency.user.tag.scholarship.coefficient = 4.0
+urgency.user.tag.jobsearch.coefficient = 3.0
+urgency.user.tag.learn.coefficient = -2.0
+
+urgency.user.tag.learn.coefficient = -2.0
+urgency.due.coefficient = 55.0
